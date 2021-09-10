@@ -1,0 +1,11 @@
+.Intro-infos{
+    position: relative;
+    top: -100px;
+}
+
+.Intro-infos .icon{
+    font-size: 3em;
+}
+.Intro-infos .single-info {
+    background-color: #1cc7c1 !important;
+}

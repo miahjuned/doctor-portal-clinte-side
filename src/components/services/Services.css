@@ -1,0 +1,13 @@
+.section-header h5{
+    text-transform: uppercase;
+    color: #1cc7c1;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+}
+.section-header h1{
+    text-transform:capitalize;
+    font-weight: 600;
+    line-height: normal;
+}

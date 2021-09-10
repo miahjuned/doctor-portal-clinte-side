@@ -1,0 +1,25 @@
+
+.header-row{
+    height: 600px;
+    /* position: absolute; */
+}
+
+.header-content h1 {
+    /* font-size: 50px; */
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #3A4256;
+    /* margin-bottom: 30px; */
+    /* line-height: 70px; */
+  }
+  
+  .header-content p {
+    font-size: 16px;
+    color: #B4B4B4;
+    /* margin-bottom: 30px; */
+  }
+ .btn-appointment {
+    color: white !important;
+    font-weight: 600 !important;
+    background-color: #1cc7c1!important
+  }
