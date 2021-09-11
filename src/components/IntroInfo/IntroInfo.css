@@ -1,6 +1,7 @@
 .Intro-infos{
     position: relative;
-    top: -100px;
+    bottom: -100%;
+    
 }
 
 .Intro-infos .icon{
@@ -9,3 +10,17 @@
 .Intro-infos .single-info {
     background-color: #1cc7c1 !important;
 }
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.info-content{
+    /* height: 100%; */
+    width: 100% !important;
+}
+
+@media (max-width: 900px) {
+    .Intro-info:last-child {
+      width: 100% !important; 
+    }
+  }

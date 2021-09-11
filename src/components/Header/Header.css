@@ -1,6 +1,6 @@
 .header-container{
     background-image:   url('../../images/chair2.png');
-    height:700px;
+    /* height:750px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

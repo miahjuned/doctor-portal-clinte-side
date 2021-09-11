@@ -8,7 +8,7 @@ const IntroInfo = () => {
     return (
         <div className="Intro-infos">
             <Container>
-                <Row className="mt-5">
+                <Row className="row">
                     {
                         IntroData.map(info => <IntroInfoCard info={info}/>)
                     }

@@ -5,7 +5,7 @@ const BlogPost = (props) => {
     console.log(props.blog)
     const {title, description, author, authorImg , date} = props.blogPost;
     return (
-        <Col md={4}>
+        <Col lg={4} md={4} sm={12} xl={4} xs={12} xxl={4}>
             <Card className='shadow'>
                 <Card.Header className='d-flex  align-items-center'>
                     <img className='mx-3' src={authorImg} alt=''  width="60"/>

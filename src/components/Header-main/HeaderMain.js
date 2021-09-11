@@ -8,14 +8,14 @@ const HeaderMain = () => {
         <section>
             <Container >
                 <Row className="align-items-center header-row" >
-                    <Col md={5}>
+                    <Col lg={5} md={5} sm={12} xl={5} xs={12} xxl={5}>
                         <div className="header-content">
                             <h1>Your smile <br/> Starts Here </h1>
                             <p className="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the</p>
                             <Link className="btn btn-appointment">GET APPOINTMENT</Link>
                         </div>
                     </Col>
-                    <Col md={7}>
+                    <Col lg={7} md={7} sm={12} xl={7} xs={12} xxl={7}>
                         <div className="header-img">
                             <img className="img-fluid" src={chair} alt="chair banner" />
                         </div>

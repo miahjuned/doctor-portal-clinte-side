@@ -10,7 +10,6 @@ const Header = () => {
             <Navbar></Navbar>
             <HeaderMain></HeaderMain>
             <IntroInfo></IntroInfo>
-            {/* <BusinessInfo></BusinessInfo> */}
         </div>
     );
 };

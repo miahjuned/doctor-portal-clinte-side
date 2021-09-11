@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const FooterCol = (props) => {
     const {menuItem, menuTitle, link} = props;
     return (
-        <Col md={3}>
+        <Col lg={3} md={3} sm={12} xl={3} xs={6} xxl={3}>
             <h6 className="textPrimary menu-title">
                 {menuTitle ? menuTitle : " "}
             </h6>
