@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import './App.css';
 import Home from './pages/Home/Home';
+import Appointment from './pages/Home/Appointment/Appointment';
 
 const App = () => {
   return (
@@ -14,13 +15,12 @@ const App = () => {
           <Route path="/users">
 
           </Route>
-          <Route path="/">
-
+          <Route path="Appointment">
+            <Appointment></Appointment>
           </Route>
       </Switch>
       
     </Router>
   );
 }
-
 export default App;
